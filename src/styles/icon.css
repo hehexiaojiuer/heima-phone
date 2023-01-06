@@ -1,7 +1,7 @@
 @font-face {
   font-family: "toutiao";
   /* Project id 3851706 */
-  src: url('//at.alicdn.com/t/c/font_3851706_pvlv5203eb.woff2?t=1672890708972') format('woff2'), url('//at.alicdn.com/t/c/font_3851706_pvlv5203eb.woff?t=1672890708972') format('woff'), url('//at.alicdn.com/t/c/font_3851706_pvlv5203eb.ttf?t=1672890708972') format('truetype'), url('//at.alicdn.com/t/c/font_3851706_pvlv5203eb.svg?t=1672890708972#toutiao') format('svg');
+  src: url('//at.alicdn.com/t/c/font_3851706_udid5787wc.woff2?t=1673028353089') format('woff2'), url('//at.alicdn.com/t/c/font_3851706_udid5787wc.woff?t=1673028353089') format('woff'), url('//at.alicdn.com/t/c/font_3851706_udid5787wc.ttf?t=1673028353089') format('truetype'), url('//at.alicdn.com/t/c/font_3851706_udid5787wc.svg?t=1673028353089#toutiao') format('svg');
 }
 .toutiao {
   font-family: "toutiao" !important;
@@ -9,6 +9,12 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.toutiao-lishi:before {
+  content: "\e611";
+}
+.toutiao-lishixiao:before {
+  content: "\e8bd";
 }
 .toutiao-pinglun:before {
   content: "\e601";
